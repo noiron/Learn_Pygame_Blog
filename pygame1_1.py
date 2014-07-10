@@ -1,4 +1,4 @@
-﻿# -*-coding:utf8 -*- 
+# -*-coding:utf8 -*- 
   
 # 本文件代码来自目光博客《用Python和Pygame写游戏-从入门到精通（1）》 
 # http://eyehere.net/2011/python-pygame-novice-professional-1/ 
@@ -25,7 +25,7 @@ background = pygame.image.load(background_image_filename).convert()
 mouse_cursor = pygame.image.load(mouse_image_filename).convert_alpha() 
   
 while True: 
-    for event in pygame.event.get() 
+    for event in pygame.event.get(): 
         if event.type == QUIT: 
             exit()
 

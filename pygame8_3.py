@@ -6,6 +6,8 @@
 
 # 程序功能：在之前程序的基础上进行修改，使图片在碰到屏幕边缘后会反方向运动
 
+# 需要注意的地方：tick()的用法
+
 background_image_filename = 'sushiplate.jpg'
 sprite_image_filename = 'fugu.png'
 
